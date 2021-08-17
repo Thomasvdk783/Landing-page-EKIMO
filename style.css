@@ -3,7 +3,7 @@ body {
     margin: auto;
     font-family: 'Roboto Condensed', sans-serif;
     background-color:rgb(243, 243, 243);
-    background-image: url('../images/interior-living-room-coffee-table-600w-1415783642.webp');
+    background-image: url('./images/interior-living-room-coffee-table-600w-1415783642.webp');
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
