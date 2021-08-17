@@ -1,0 +1,93 @@
+body {
+    width:1240px;
+    margin: auto;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color:rgb(243, 243, 243);
+    background-image: url(/images/interior-living-room-coffee-table-600w-1415783642.webp);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+   width: 1240px; 
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   display:flex;
+   flex-direction: row;
+   margin: auto;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.logo {
+    width: 50%;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    color: #fff;
+}
+
+.ul-nav-header {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btn-estimation {
+    cursor: pointer;
+    border:none;
+    color: #fff;
+    /*
+    background: linear-gradient(214deg, #040252,#0a027f);*/
+    background-color: #ee4fa1;
+    font-size:15px;
+    border-radius:10px;
+    padding-right: 10px;
+    padding-left:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    box-shadow: 1px 0px 9px 2px rgb(66, 66, 66);
+    transition:600ms;
+}
+
+.btn-estimation:hover {
+    transform: scale(1.05);
+    transition:600ms;
+}
+
+.container-slider {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.section-content-slider {
+    width: 30%;
+}
+
+.section-img-slider {
+    width: 60%;
+}
+
+.img-slider {
+    width:75%;
+    border-radius:20px;
+    box-shadow: 0px 0px 40px 30px rgb(209, 209, 209);
+}
+
+
+
+
+
+
+
